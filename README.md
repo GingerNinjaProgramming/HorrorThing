@@ -11,4 +11,5 @@ So *Very* Scary
 * Eyeball PSX model by Leipea (s.d.) At: https://leipea.itch.io/eyeball-psx 
 * Industrial Wall Light - https://fab.com/s/364544615d02
 * PSX/PS1 Flashlight – Low Poly Retro Horror Asset by Norenwind (s.d.) At: https://norenwind.itch.io/psxps1-flashlight-low-poly-retro-horror-asset 
+* EMERGENCY EXIT LOW POLY - https://fab.com/s/e1468cd0b0e2
 
