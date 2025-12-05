@@ -1,5 +1,3 @@
-![Bear 5](https://i.redd.it/nnbts9yndp6b1.jpg)
-
 # FGCT4015 - Fundamentals of Games Development
 
 ## HorrorThing
@@ -12,116 +10,192 @@ Date: 5/12/2025
 
 [Repository Link](https://github.com/GingerNinjaProgramming/HorrorThing)
 
-[Build Link]("")
+[Build Link](https://gingerprogrammer.itch.io/horror-game)
 
 ### Project Outline
 
-My project at its basics will be a 3D horror game where you as the player have to get from point A to point B without dieing to a monster / monsters. Its concept will be closely tied to common horror game elements and mechanics like poppy playtime, lethal company or even more recently R.E.P.O. The greatest challenge for this will be ensuring the game functions and has a good horror atmosphere as this is both my first proper unreal project along with being my first horror game.  
+My project at its basics will be a 3D horror game where you as the player have to get from point A to point B without dying to a monster / monsters. Its concept will be closely tied to common horror game elements and mechanics like poppy playtime (Poppy Playtime on Steam, s.d.), lethal company (Lethal Company on Steam, s.d.) or even more recently R.E.P.O (R.E.P.O. on Steam, s.d.). The greatest challenge for this will be ensuring the game functions and has a good horror atmosphere as this is both my first proper unreal project along with being my first horror game. This game will be matching the theme of "Very important Object" by having the actual flashlight the player uses being a very important object.
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/repo-game.gif)
+
+Figma 1 - Gif of R.E.P.O character die
 
 ## Research
 
 ### Methodology
 
-During my research for this project I decided to broden my research scope a bit wider between the more technical side of the project and the other parts of the project as it related to design. I made this decision as considering the project was to be made in unreal which has a lot more tool to handle basic applications of mechanics it gave me a lot more time and space to attempt some of the other facets of game dev that could not be done in something like raylib where the primary focus was to actualy make the game functional (CITATION NEEDED).
+During my research for this project I decided to broaden my research scope a bit wider between the more technical side of the project and the other parts of the project as it related to design. I made this decision as considering the project was to be made in unreal which has a lot more tool to handle basic applications of mechanics it gave me a lot more time and space to attempt some of the other facets of game dev that could not be done in something like raylib where the primary focus was to actually make the game functional.
 
-I am going to attempt to get play testing on my game once it has some form of semi-complete version to be able to improve the game further from that point along with general peer reviews over the course of development to get more ideas on the project while working on it and getting more ideas once the game has a version to be tested. I will doing it this way as due to the nature of unreal and the project itself it has a lot more value to test later in development as to test a more complete products and to be able to get a good idea of if the horror feeling is being presented correctly to the person playing it. 
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/Blueprintsexample.png)
+
+Figma 2 - Image of an example of unreal blueprints
+
+I am going to attempt to get play testing on my game once it has some form of semi-complete version to be able to improve the game further from that point along with general peer reviews over the course of development to get more ideas on the project while working on it and getting more ideas once the game has a version to be tested. I will doing it this way as due to the nature of unreal and the project itself it has a lot more value to test later in development as to test a more complete products and to be able to get a good idea of if the horror feeling is being presented correctly to the person playing it.
 
 ### Sources
 
-#### Mastering C++ a Beginners Guide
+#### Design patterns : elements of reusable object-oriented software
 
-When doing research for this project I first looked at material on C++, as this was my first major time using C++. One such book was  __Mastering C++ a Beginners Guide__ (Bin Uzayr, 2022). I did this to help improve my C++ knowledge as at the time this was a new language to me and though familiar with programming I wanted to be sure that I don't miss any syntax differences between C++ and another language like C#.I used this source as a beginner in C++ it seemed easy to pick up and learn from along with being advised this book via word of mouth from people in my studies. I learned many things about C++ reading from this books including:
+When doing research for this project as I wanted to push my knowledge and technical knowhow further I picked up this book on design patterns to better understand how to make my code cleaner and more organized along with understanding common development solutions to common problems in development. While being familiar with a lot of these patterns on a surface level this book really helped me understand them on a further level. These patterns included but are not limited to:
 
-* Vectors
-* Pointers 
-* Data Types
-* Header files
-* C++ OOP techniques
+* The command pattern
+* The factory pattern 
+* The observer pattern
+* ETC
 
-This book was very useful in my early C++ journey allowing me to iron out the details and differences between C++ and any other programming languages giving me a good starting point to start coding in raylib. However, by its very nature, being a beginner guide it does not break down everything and a lot of other things still had to be learned from experience / prior knowledge so while being a good spring board for work many things still had to be learned from other means like in person lectures.
+This book was useful to understanding these high level programming patterns on a higher level along with introducing me to patterns and concepts that I had not heard of prior to this project. However one downside to this is due to the pure multitude of information in this book I may of overloaded my knowledge pool with too much some of which admittedly was less useful to my actual project than others.
 
-![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/DownwellGameplay.jpg)
+#### R.E.P.O / Lethal Company - Horror/Comedies?  
 
-Figma 2 - Frame of Downwell gameplay
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/RepoImg01.png)
 
-#### Downwell - The Game
+Figma 3 - Image of R.E.P.O gameplay
 
-Along with above during my research I looked into a game called downwell to see if I could get any ideas from a preexisting work similar to what I want my own project to be like which has achieved popularity (Downwell (video game), 2025). I learned some things from doing this that would help inform my game as it went further from research to actually making including:
+Further examination and research for my project took me to multiplayer horror games like R.E.P.O and Lethal Company both games doing something similar mixing a horror multiplayer experience with a comedic moments with friends turning the game into a very complex blend of horror and action comedy. These kind of games peaked my curiosity in the research for this project for two reasons. One how they could mix such widely contrasting themes and make it work so well with both games doing it in a different but entirely unique way. Two how these games could have so many different AI systems running separately from each other while still having the game feel like it makes sense and understandable to the player, playing the game. This discovering pushed me to watching videos by youtube channel [**alter ego**](https://www.youtube.com/@alteregosocial) (alter ego, s.d.) who does breakdowns on the inner workings of the AI which was very interesting to watch to understand how these games work on a deeper level. From this I learnt some important facts about how they keep the systems advanced while still making sense and being manageable
 
-* Enemy Types
-* Main Loop
-* Techniques to make more fun
-* Keep simplistic 
-* General Art Direction 
+* Many enemy share similar base behavior
+* These systems use interfaces and base classes to allow sharing of functionality
+* Most systems in these games use a combination of simple concepts to give the illusion of complex AI
+* The cause and effect is very well read for the player to better understand the AI
 
-This research was useful as in the space my games DNA shares a lot of similarities to this game and considering the fact that this game did this formula successfully it makes sense to take information from the best contenders in the space. A downside of the research is in hindsight it may of allowed the scope of the game to grow to a place where it did not reasonably need to be where, though I aim to make something good understanding my personal limitations is something I need to keep in mind to allow me to scope my project reasonably. Along with this researching all of this gave no actual info on how to implement these features leaving it more up to me to learn as I went though my creative journey.
+This deep dive was very useful for this project and later projects as mainly for the context of this project it gave different ideas of enemy's that could be in the game and though in the current game there is only one enemy it helped inform how the enemy is coded and the potential future of the game if i were to walk more on it.
 
-#### Raylib Cheat-Sheet / Documentation
+#### Unreal Engine Documentation
 
-I also used the official raylib (raylib | A simple and easy-to-use library to enjoy videogames programming, s.d.) documentation and cheat sheet (raylib - cheatsheet, s.d.) as some of my sources when working on this project. This felt right as considering raylib is the framework (Raylib -- Easiest C/C++ Game Framework -- Now Even Better For Beginners!, 2024) im using for this project so by occam's razor would suggest that the offical documentation would be the best place to start when looking for infomation on raylib. On this documentation it:
+Throughout my project I also ,as is obvious when using a engine, looked though the engines documentation on how different nodes and systems work inside the engine. This was useful when I was having a problem with certain functionality in the engine and needed clarification on what something is doing for example with unreal's inbuilt timeline node which at a point in development I was struggling with though searching the documentation I found what the problem was (this being that is runs on actors and not widgets) (Timelines in Unreal Engine | Unreal Engine 5.7 Documentation | Epic Developer Community, s.d.). This documentation helped with:
 
-* Directed me to other raylib libraries that I used **[See External Libraries]** 
-* Gave me a place to see a lot of base raylib functions 
-* Acted as a HUB to find other useful information and tools
+* General problem solving
+* More technical questions to how the systems worked
+* Finding new nodes that could help solve problems
+* ETC 
 
-![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/RaylibCheatSheet.png)
-
-Figma 3 - Showing undescript nature of the Raylib Cheat Sheet
-
-This research was helpful in my project as it helped inform me the basic functionality of raylib and how to get something functional setup to start working on. It was also positive to the development journey of my project as it helped direct me to other tools to that would go on to help me later. A downside of this source/s is that when it came to the cheat sheet it was not very in depth on functions on what they did more just having the function signature with a brief comment leaving me to sometimes have to do testing on how the functions work more precisely or going to other places to find what these functions do to see if they can fix my problem.
-
+Using the documentation was useful for solving specific problems with nodes and functionality in the engine during development. However one main problem I found, similar to when i was working with the raylib cheat-sheet in a previous project (Vian, 2025), as the documentation is essentially a massive spread sheet for specific problems it was sometimes difficult to find what I was looking for without being directed to it from another source along with this some documentation was not a precise as I would like forcing me to find the answer though other means. However for the most part the documentation was very useful
 
 ## Implementation
 
 ### Process
 
-Describe your technical and creative approach, including:
+When I was planning this project I wanted to push my understanding of games development while also giving me a creative outlet and viable reason to use some more of the advanced tools unreal provides
 
-* Planning, ideation, and iteration
-* Feedback received and how it was integrated
-* New tools, workflows, or systems explored
+Coming into this project I had beginner level experience using unreal visual scripting blueprints therefore throughout this project rather than learning unreal on a basic level and working around that I wanted an excuse to use some other of unreal's features and this helped inform my creative approach
 
-here
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/PoppyPlaytimeWP.png)
+
+Figma 4 - Weeping Angel archetype example Poppy playtime
+
+I began project development using the base horror template from unreal while not using majority of the things this offered it was a great help in giving me a general idea on how things should look and providing some useful pre-made assets that I used in my project.Along with this I downloaded many assets of itch.io and made a base map with them.
+
+From there I worked on base interactable objects in the game scene and creating the code for the player to be able to interact with the objects. These two objects included a door that the player would interact with to open and a flashlight pickup which the player could interact with to gain the flashlight to use. To allow for this I created a interface (Interface (object-oriented programming), 2025) in unreal called **BPI_Interactable** with a singular function called interact. This interface was then given to both the door and light pick up with unique implementations of the function on both objects.
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/BPI_Interactable.png)
+
+Figma 5 - BPI_Interface in question
+
+* One simply triggering a function to open/close the door
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/DoorOpenBlueprint.png)
+
+Figma 6 - Door opening interact function
+
+* Other to update a boolean on the player BP to represent having the light
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/LightPickupBlueprint.png)
+
+Figma 7 - Light Pickup interact variation
+
+This was useful as instead of looking for a specific object to interact the player in its blueprint could just cast a base line trace when the interact key was pressed and then attempt to run the interface's interact function though whatever the hit actor was this meant that due to the nature of how interface function calls are treated in unreal engine the player would attempt to call the interact function on whatever actor it hit if it actor did have a implementation of the function it would run normally or if it didn't then no errors would be thrown as unreal treats these kind of calls in the same way an event would be called.
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/PlayerInteract.png)
+
+Figma 8 - Player interaction segment.
+
+Another of the main things I worked on for this project was an AI character and early on in the development process I decided to make an enemy AI replicated the weeping angel archetype. This being a concept originating from monsters from the doctor who series (Weeping Angel, 2025). In doctor who they are depicted as gargoyle-like human statues which can only move when the doctor is not looking at them directly. This behavior has been replicated in many games like the boos from mario by Nintendo (Boo | Mario Wiki | Fandom, s.d.) ,which would stop moving and cover their eyes if mario looks in their direction, or the endo-skeletons (Glamrock Endo, 2025) in FNAF Security Breach By SteelWool (How To Beat Endoskeletons In FNAF Security Breach | Easiest Way, 2021).
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/super-mario-world-big-boo.gif)
+
+Figma 9 - Example Of Boo hiding on player sight
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/Endo-12-04_032324328.png)
+
+Figma 10 - Example of Endo Paused in motion
+
+For actually making the AI I used a the built in tools provided in unreal of the behavior tree and blackboard combo. The behavior trees managing the main logic where the blackboard acts as a global store for all functions and tasks inside of the AI, these values are stored in key value pairs. Along with this I created a character blueprint for the character in the scene and to control the actor it has a AI controller which is a child class of the base controller with extra bells and whistles for AI functionality. Most of logic for the AI is handled in the AI controller which then points to the behavior tree to tell it what to do.
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/WPFiles)
+
+Figma 11 - Files for AI Unreal
+
+The behavior tree its self consists of a couple different states that get switched determined on external factors of the scene and how the player interacts with the AI. The AI has four main states with one sub state. These main states being wandering,chase,stop and kill the player for main with the sub state being the investigation phase inside of the wander phase which triggers if the AI is to hear something or just lost sight of the player to which it will go to where it heard the sound / last saw the player. The main phases are quite simple in theory. The wander phase has the AI randomly moving around its area defined by the navmesh till it gets some form of stimulation to move into the the sub investigation phase or gains sight of the player and begins the next phase. The next phase to happen depends on circumstances where the AI will run a player detection check to ensure that player cannot currently see the AI as this is a weeping angel if it were to play it would break the illusion.
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/CheckPlayerDetection.png)
+
+Figma 12 - Code for checking player detection of AI 
+
+This is done by tracking if the player is looking at the enemy using vector dot comparison and if the player is looking in general direction of the enemy along with checking if the players light source is on as if it was off the player would not be able to see the enemy anyway even when the player is technically looking in its direction. If one of these is not true the branch outputs a false which outputs that the player cannot see the enemy in the form of a boolean which can then be used on the tree to allow the chase behavior to function. If the check goes true the player does a sphere overlap by actors using the players lights attenuation radius as a radius as this defines how far the players the light should be able to affect objects if its on meaning for the player it acts as a type of view radius as other than the light the scene is mostly pitch black. After this all hit actors are looped though and checked if they are the enemy. If any of these actors are the enemy, the boolean is returned to represent that the enemy is in players sight line thus player can see the enemy. However if the loop manages to complete meaning all elements in the hit array were checked and were not the player then the other boolean gets returned meaning the player cannot currently see the enemy despite looking in its general direction and having the flashlight 
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/BTWP.png)
+
+Figma 13 - Enemy Behavior Tree
+
+Depending on the output of this behavior one of two things happens. If the player cannot see the enemy, the enemy begins its chase behavior which just has the enemy moving the players direction at a constant motion until its close enough to the player. At this point it will wait till the player is not looking in the players direction and the tree will initiate the kill behavior and well **Game Over**.
+
+The other behavior is relatively simple this just has the enemy stop all motion and erect a different randomly selected pose with a stinger sound played alongside to give the feeling of it suddenly stopping even if the player never would of seen it in motion but a statue just switching from one position to another.
+
+![image](https://file.garden/aSY-yx_ZmANpQe1l/Pocket-Dropper-Ref/EnemyKillWP.png)
+
+Figma 14 - Enemy Kill Frame
+
+All of these behaviors come together to make a relatively believable monster in my game that will find you, hunt you and kill you without you ever seeing it truly move until its too late.
 
 ### New Approaches
 
-This project was my first time using C++ and it led to new discoveries about computer programming and the hidden detail behind it as is expected from a lower level language that works closer with the computers hardware unlike another language like C#. Along with this it was also my first time using raylib and compared to other tools I have used in the past like unreal and unity, raylib was a lot more a DIY programming experience with a lot of the things you take for granted in a normal engine being things you have to manually make yourself like for example collision systems which while raylib has features to allow for collision it is still something you have to build yourself. This does however allow for a lot more creative expression in your system as it is completely up to you how these systems are designed allowing you to create them to the needs of your project rather than having to mess around with pre-made systems that may not completely fit the needs of your project. One early thing i relised when doing the rendering for my project is that as computer screens draw from left to right row by row the rendering in code adhears to this rule as well making for some interesting things that needed to be accounted for in code. These being that the y value increased as you went down instead of as you move up as is typical in most game engines meaning the coord (0,0) in space actually represents the top-left of your screen rather than the bottom left as would be expected typically, then as well when it came to drawing objects on the screen it would be drawn using the x and y as the top left point of the element then drawing the width and height right and down from this point. This meant when it came to determining exact positioning of elements on the screen extra logic needed to be implemented to get the center point of anything in the screen to ensure that when it came to things like collision checking it was using the accurate positioning of the character at the time.
+This project was my first time using unreal on such a scale / my first time using unreal with the express purpose of making a functioning product because of this I had a couple different new experiences when working on this product including map creation, higher level blueprint and working with unreal behavior trees when it came to working with the AI functionality in unreal. This came with some new discoveries including the idea of a selector,sequence and decorator,all of these things I have learnt throughout my process of working on this project.
 
 ### User Testing
 
-- Talk about how users felt on first test
-- Show data
-- Talk about second test / benchmark
-- Qualitive and Quantitive 
-- Guided or non guided 
+When it came to user testing admittedly this is one of the weaker parts of my project but despite this I still have some user testing at the start of my project and nearer to the end of my development cycle. I had a small amount of people review my project but early on my project I had a small scale guided play test with a couple of my peers and they gave useful advice that would inform later changes to game as it was further developed. This included:
 
-When it came to user testing admittedly this is one of the weaker parts of my project but despite this I still have some user testing at the start of my project and nearer to the end of my development cycle. 
+* Making the scene more visible
+* Making the player a bit slower as the player could blitz though the level
+* Other minor bug fixes
+
+This helped ensure my game had a good direction of progress for further development as I got this advice early in my projects lifecycle.
+
+In my later test I did with a small group of people my game was found to be functioning with everything that was done in the game functioning as expected and the players reacted and did what I as a developer expected/wanted them to. However one of the main problems was my game in its current state does not offer much content outside what is already inside the game linking back to my examples of games like R.E.P.O or Lethal for future development my game could include:
+
+* More enemies 
+* Bigger Map
+* More Unique things for a player to do
+
+In the future I need to make user testing more a focus but for the infomation I got for this project I did help with the projects with lifecycle ensuring it could be as good as possible in the time given
 
 ## Instructions to Install / Run
 
-To run the project [Download Zip](Pocket-Dropper.zip)
+To run my project:
 
-Then run the **.exe** inside of the extracted Zip file
+Go to the itch.io page for this game using this [link](https://gingerprogrammer.itch.io/horror-game)
+
+Follow the steps outlined on the itch page
 
 ## Reflection 
 
 ### Research Effectiveness 
 
-The research into downwell and C++/Raylib as a whole was very useful on the general approach to the game in the first place along with the actual programming work on raylib which aided in the early development of the game. Along with this the videos on raylib I watched proved mostly helpful in the development process. However admittedly some tutorials proved unhelpful as they were either too old to be applicable like with tutorials on the compiler (CITATION NEEDED) or the mechanics being shown/created were too spesfic to fit for the problem I had resulting in some wasted time going back and forwards though a video just to relise it was not what i needed anyway before making it myself.
+The research I did for this project in hindsight may of been not as efficient as I would of liked due to the fact I feel as is a common for my projects my scope seems to escape me which then has me doing research on topics and ideas that do not scale to the project I am currently making. Therefore while the research I was doing would be good in theory due to my own personal scaling issue a lot of the really interesting research and information falls on death ears. However for my AI work my research was quite effective as I found a very in depth youtube tutorial ((195) Learn all About AI in Unreal Engine 5 - YouTube, s.d.) which helped explain all things I needed to know about unreal's AI systems. Along with this I found a very useful youtube channel ((195) AI and Games - YouTube, s.d.) that broke down a lot of AI systems and characters from different games in a concise and informative way.
 
 ### Positive analysis
 
-On my positive reflection, functionally this fits the brief along with including a lot of different concepts along with have a generally clean code thoughout the project. The game successfully shows similar mechinanics to what it is based off along with have animations, audio and mostly functioning mechanics. Additionally thoughout my code I managed to make it in a way keeping the systems modular and easily reuseable in other projects with little / no changes needed
+On my positive reflection, my projects AI was well constructed and ,aside from some minor errors, functions the way I expected when I begun working on it. Along with this the general functionality of the features I attempted to implement came out close to if not more or less exactly how I wanted them to work when they were conceptualized. Along with this for the most part the code quality was kept relatively clean and readable throughout with the use of node organization and interfaces to split logic in reasonable places 
 
 ### Negative analysis
 
-On my more objective negative analysis, the game while functioning was not actually as fun as I wanted it to be and was not particularly fun nor did it have much re-playability. Additionally during the project I do not believe i worked on sprites/sound as much as I could of showing how the project lacks in these two areas. I belive this may of been due to lacking user testing early on in project and in the future i need to ensure i do more testing more often to give my game better direction.
+On my more objective negative analysis, my project could of done with more diversity in enemy's and a larger and better designed map as my game in its current state does not have a very complex map and the enemy in the game while well done is the only enemy in the game making it easy to abuse even with the fail safes built in. Therefore I believe with a more unique enemy to prevent some of the players behaviors it could stop the player from abusing the holes in the one enemy's ai and make for a more interesting gameplay experience for the player.
 
 ### Next time
 
-Next time Im going to try and focus more on early prototypes when working on the game giving more time on working on the games core mechanics and allowing time to make the core of the game fun to play before deep diving on making the code efficient. This would also further help solve my other problem as being able to generate good functioning prototypes as quick as possible as early as possible further helps gives me more user feedback which can then ensure a better project once I leave the prototyping phase. Along with this I think during my future projects I am going to try and consult more of my peers during development as I took a extremely independent mindset during the project which could of been to my projects determent especially in the fun department.
+Next time Im going to try and focus more making a lot more smaller systems and enemies in the game rather than spending all of my development time on large systems that are good on their own but as a whole in the project do not account for much. Along with this I will ensure I will use more user testing more often throughout the games development.
 
-As far as whats guiding my intrests for future projects I had a lot of fun building reuseable and good systems that can be used thoughout my project and possibly to be used in later projects, when working on more projects thoughout my studies I want to continue to build more systems like this and possibly at some point build full on plugins and libarys for things like raylib,unreal,etc (CITATION NEEDED)
+As far as whats guiding my interests for future projects I want to work more with the AI behaviors and systems mainly with the systems unreal allows making different more complex AI that do different things and force different gameplay behaviors in the player depending on what the game genre I am working on ensuring the AI made fits the needs of the game I am working along with in the process creating tools for allow for easier AI creation in further projects.
 
 ## Declared Assets
 
@@ -141,24 +215,54 @@ Engine - **Unreal Engine 5.6.1**
 * Industrial Wall Light - https://fab.com/s/364544615d02
 * PSX/PS1 Flashlight – Low Poly Retro Horror Asset by Norenwind (s.d.) At: https://norenwind.itch.io/psxps1-flashlight-low-poly-retro-horror-asset 
 * EMERGENCY EXIT LOW POLY - https://fab.com/s/e1468cd0b0e2
-* PUT MIXAMO LINK HERE (CITATION NEEDED)
-
+* Other models / Anims - https://www.mixamo.com/#/ 
 
 ## References 
 
 ### Game Sources 
 
+R.E.P.O. on Steam (s.d.) At: https://store.steampowered.com/app/3241660/REPO/ (Accessed  03/12/2025).
 
+Lethal Company on Steam (s.d.) At: https://store.steampowered.com/app/1966720/Lethal_Company/ (Accessed  03/12/2025).
+
+Poppy Playtime on Steam (s.d.) At: https://store.steampowered.com/app/1721470/Poppy_Playtime/ (Accessed  03/12/2025).
 
 ### Academic Sources 
+
+Perron, B. (2018) 'The World of Scary Video Games' pp.1–488.
+
+Ulibarri, S. S. (2020) Unreal Engine C++: the ultimate developer’s handbook : learn C++ and Unreal Engine by creating a complete action game. United States? Stephen Seth Ulibarri. At: https://go.exlibris.link/k8dVkFcf (Accessed  03/12/2025).
+
+Gamma, E., Helm, R., Johnson, R. and Vlissides, J. (2011) Design patterns : elements of reusable object-oriented software. Boston, Mass. Munich: Addison-Wesley Professional.
 
 
 ### Documentation Sources
 
+Unreal Engine 5.7 Documentation | Unreal Engine 5.7 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-7-documentation (Accessed  03/12/2025).
 
+Timelines in Unreal Engine | Unreal Engine 5.7 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/timelines-in-unreal-engine (Accessed  03/12/2025).
+
+
+Interface (object-oriented programming) (2025) In: Wikipedia. At: https://en.wikipedia.org/w/index.php?title=Interface_(object-oriented_programming)&oldid=1317009412 (Accessed  03/12/2025).
 
 
 ### Other
+
+alter ego (s.d.) At: https://www.youtube.com/channel/UCpyp1kqWLfeD3cfLS6kBw5Q (Accessed  03/12/2025).
+
+Vian, C. (2025) GingerNinjaProgramming/Pocket-Dropper. At: https://github.com/GingerNinjaProgramming/Pocket-Dropper (Accessed  03/12/2025).
+
+(195) Learn all About AI in Unreal Engine 5 - YouTube (s.d.) At: https://youtube.com/playlist?list=PL4G2bSPE_8uklDwraUCMKHRk2ZiW29R6e&si=Uucd3HSQ4-WzFqm9 (Accessed  04/12/2025).
+
+(195) AI and Games - YouTube (s.d.) At: https://www.youtube.com/@AIandGames (Accessed  04/12/2025).
+
+Weeping Angel (2025) At: https://tardis.fandom.com/wiki/Weeping_Angel (Accessed  04/12/2025).
+
+How To Beat Endoskeletons In FNAF Security Breach | Easiest Way (2021) Directed by E4F. At: https://www.youtube.com/watch?v=uxdwXyAZhH8 (Accessed  04/12/2025).
+
+Boo | Mario Wiki | Fandom (s.d.) At: https://mario.fandom.com/wiki/Boo (Accessed  04/12/2025).
+
+Glamrock Endo (2025) At: https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Endo (Accessed  04/12/2025).
 
 
 
